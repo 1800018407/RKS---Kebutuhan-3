@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4f7942"
+    android:orientation="vertical"
+    tools:context=".antrian">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ambil Antrian Disini"
+        android:textSize="25sp"
+        android:layout_marginTop="50sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="Ambil Antrian"
+        android:id="@+id/btnantrian"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#abd7"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomer Antrian Anda"
+        android:textSize="20sp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="100sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Antrian A 0"
+        android:id="@+id/btnnomer"
+        android:layout_marginTop="350dp"
+        android:textSize="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Kembali"
+        android:id="@+id/back"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="120dp"/>
+
+
+</RelativeLayout>

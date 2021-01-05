@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfe3b4"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="#4f7942"
+        android:layout_marginTop="60sp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_log"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_user"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="30sp"
+        android:text=""
+        android:id="@+id/username"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/lock"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="30sp"
+        android:text=""
+        android:id="@+id/password"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:text="LOGIN"
+        android:id="@+id/btnlogin"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="50sp"
+        android:textSize="20sp"
+        android:background="#abb7b7"
+        android:textColor="#000000"/>
+
+    <Button
+        android:layout_width="100sp"
+        android:layout_height="50sp"
+        android:text="RESET"
+        android:id="@+id/btnreset"
+        android:layout_marginTop="-50sp"
+        android:layout_marginLeft="200sp"
+        android:textSize="20sp"
+        android:background="#abb7b7"
+        android:textColor="#000000"/>
+
+</LinearLayout>

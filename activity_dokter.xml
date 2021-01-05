@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bfe3b4"
+    android:orientation="vertical"
+    tools:context=".dokter">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Daftar Dokter Umum"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#049372"
+        android:layout_marginLeft="50sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/dokter"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. OO Suprana"
+        android:textSize="20sp"
+        android:textColor="#049372"
+        android:layout_marginLeft="130sp"
+        android:id="@+id/droo"
+        android:layout_marginTop="130sp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/cowok"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Bambang"
+        android:textSize="20sp"
+        android:textColor="#049372"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="260sp"
+        android:id="@+id/drbambang"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/cewek"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Tia Iklima"
+        android:textSize="20sp"
+        android:textColor="#049372"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="380sp"
+        android:id="@+id/drtia"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="480dp"
+        android:src="@drawable/dr"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Wiwik"
+        android:textSize="20sp"
+        android:textColor="#049372"
+        android:layout_marginLeft="130sp"
+        android:layout_marginTop="500sp"
+        android:id="@+id/drwiwik"/>
+
+</RelativeLayout>
