@@ -37,6 +37,7 @@ C. Drawable :
   - cowok.jpg
   - dokter.jpg
   - dr.jpg
+  - ic_launcher_background.xml
   - ic_log.xml
   - ic_place.xml
   - ic_user.xml
